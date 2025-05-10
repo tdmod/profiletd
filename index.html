@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Hồ sơ cá nhân</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .profile-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      animation: fadeIn 1s ease-in;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #74ebd5;
+      margin-bottom: 15px;
+    }
+    .title {
+      color: #555;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+    .social-icons img:hover {
+      transform: scale(1.2);
+    }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background: #74ebd5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .contact-btn:hover {
+      background: #4ab3c6;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="IMG_1746408474795_1746771470603.jpg" alt="Avatar sống động" class="avatar">
+    <h1>Thanh Đại</h1>
+    <p class="title">Tools Mod</p>
+    <p>hotrothanhdai1208@gmail.com</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/15wSHYi9k1/"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+    </div>
+    <a href="mailto:hotrothanhdai1208@gmail.com" class="contact-btn">Liên Hệ Tiktok: TD Mod</a>
+  </div>
+</body>
+  </html>
